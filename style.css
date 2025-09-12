@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#container {
+  padding-top: 15em;
+  background-color: rgb(255, 255, 0);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  padding: 4rem 0rem;
+  background-color: white;
+  border: 5px solid black;
+  font-size: 1.5rem;
+}
+
+th {
+  padding-bottom: 1rem;
+}
+
+td {
+  padding-bottom: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
